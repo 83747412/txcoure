@@ -1,0 +1,11 @@
+.header {
+    min-width: 1200px;
+    height: 80px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    .header-inner {
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+    }
+}

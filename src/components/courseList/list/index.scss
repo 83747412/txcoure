@@ -1,0 +1,59 @@
+.card-item {
+    float: left;
+    width: 236px;
+    height: 221px;
+    margin: 0 0 20px 9px;
+    padding: 7px 7px 10px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+
+    &.hover {
+        border-color: #ddd;
+        box-shadow: 1px 2px 3px #ddd;
+    }
+
+    .item-status {
+        position: absolute;
+        width: 220px;
+        height: 24px;
+        margin-top: -30px;
+        padding-left: 5px;
+        background-color: rgb(0, 0, .7);
+        line-height: 24px;
+        box-sizing: border-box;
+    }
+
+    .item-status-step {
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .item-tt {
+        margin-bottom: 8px;
+    }     
+    
+    .tt-lk {
+        font-size: 14px;
+    }
+
+    .item-line {
+        height: 22px;
+        line-height: 22px;
+        font-size: 16px;
+    }
+
+    .line-cell {
+        &.item-price {
+            color: #e85308;
+        }
+
+        &.item-free {
+            color: #5cb85c;
+        }
+    }  
+}
+.card-lk {
+    display: block;
+    height: 124px;
+    margin-bottom: 6px;
+}

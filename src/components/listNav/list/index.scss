@@ -1,0 +1,16 @@
+.course-tab-list {
+    .tab-item {
+        float: left;
+        height: 50px;
+        margin-right: 40px;
+        line-height: 50px;
+
+        .tab-item-lk {
+            color: 14px;
+
+            &.current {
+                color: #167ed9;
+            }
+        }
+    }
+}

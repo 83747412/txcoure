@@ -1,0 +1,20 @@
+.nav-list {
+    display: inline-block;
+    margin-left: 50px;
+
+    .nav-item {
+        float: left;
+        height: 80px;
+        padding: 0 50px;
+        line-height: 80px;
+        text-align: center;
+
+        .nav-item-lk {
+            font-size: 18px;
+
+            &:hover {
+                color: #23b8ff;
+            }
+        }
+    }
+}

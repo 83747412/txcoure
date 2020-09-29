@@ -1,0 +1,85 @@
+.recom-course-list {
+    .recom-course-item {
+        position: relative;
+        width: 1200px;
+        height: 259px;
+        margin-bottom: 22px;
+        background-color: #f0f0f0;
+
+        .course-cover {
+            width: 460px;
+            height: 100%;
+        }
+
+        .course-info {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 1200px;
+            height: 100%;
+            padding-left: 480px;
+            box-sizing: border-box;
+
+            .course-title {
+                padding: 20px 0 13px;
+                line-height: 18px;
+                font-size: 18px;
+    
+                &:hover {
+                    color: #039ea3;
+                }
+            }
+
+            .description {
+                max-height: 48px;
+                font-size: 14px;
+                line-height: 24px;
+                word-wrap: break-word;
+                color: #666;
+                overflow: hidden;
+            }
+            .teacher-info {
+                padding: 15px 0;
+
+                .teacher-img {
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 10px;
+                    border-radius: 50%;
+                    vertical-align: middle;
+                }
+
+                .teacher-name {
+                    font-size: 16px;
+                    color: #666;
+                }
+            }
+
+            .price-wrap {
+                padding-bottom: 8px;
+                font-size: 25px;
+                line-height: 24px;
+                color: #e85308;
+            }
+
+            .lk-btn {
+                .btn-lk {
+                    display: block;
+                    width: 170px;
+                    height: 50px;
+                    margin-top: 8px;
+                    background-color: #23b8ff;
+                    border-radius: 2px;
+                    text-align: center;
+                    font-size: 18px;
+                    line-height: 50px;
+                    color: #fff;
+
+                    &:hover {
+                        background-color: #12a7ff;
+                    }
+                }
+            }
+        }
+    }
+}
